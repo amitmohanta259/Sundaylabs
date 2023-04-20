@@ -6,8 +6,9 @@
       <class name="com.automation.sundaylabs.SundayLab.EndtoEndTest">
         <methods>
           <include name="close"/>
+          <include name="verifyPan"/>
+          <include name="verifyUserType"/>
           <include name="initialize"/>
-          <include name="ProfilePage"/>
         </methods>
       </class> <!-- com.automation.sundaylabs.SundayLab.EndtoEndTest -->
     </classes>

@@ -15,20 +15,10 @@ public class Signup {
 	@FindBy(xpath = "//button[text()='Sign up']")
 	WebElement signupButton; 
 	
-	@FindBy(xpath="//input[@type='checkbox']")
-	WebElement capcha;
-//	
-//	@FindBy(xpath="//a[@id='menu_admin_viewSystemUsers']")
-//	WebElement password;
 	
-	
-	public void clickSignupButton() {
-		signupButton.click();
-		capcha.click();
+	public void clickSignupButton() throws InterruptedException {
+		signupButton.click();	
 	}
 	
-	public void registration() {
-		
-	}
 	
 }

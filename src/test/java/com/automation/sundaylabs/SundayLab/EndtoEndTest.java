@@ -25,12 +25,12 @@ public class EndtoEndTest {
 	public void signup() throws InterruptedException {
 		Thread.sleep(1000);
 		Signup signup = new Signup(AppLibrary.driver);
-		Thread.sleep(6000);
 		signup.clickSignupButton();
+		
 	}
 	@AfterTest
 	public void close() {
-		AppLibrary.driver.close();
+		//AppLibrary.driver.close();
 	}
 	
 }	

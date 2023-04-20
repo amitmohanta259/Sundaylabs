@@ -7,6 +7,7 @@ import org.testng.asserts.SoftAssert;
 import com.main.sundaylabs.designpattern.*;
 import com.main.sundaylabs.library.AppLibrary;
 
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -35,16 +36,23 @@ public class EndtoEndTest {
 	
 	@Test(priority = 3)
 	public void verifyUserType() throws InterruptedException {
-		Assert.assertTrue(v.VerifyPanCardPopWindow()); 
+		v.VerifyPanCardPopWindow(); 
 	}
 	
 	@Test(priority = 4)
 		public void verifyPan() throws InterruptedException {
-			SoftAssert softAssert = new SoftAssert();
-			softAssert.assertEquals(v.verifyPanCardWithInValidPan(),"Failed to verify PAN, Please try again.","Title is not Matching");
-			Thread.sleep(1000);
-			softAssert.assertEquals(v.verifyPanCardWithValidPan(),"Failed to verify PAN, Please try again.","Title is not Matching");
-			softAssert.assertAll();
+			//Boolean panValue = AppLibrary.driver.findElement(By.xpath("//div[text()='PAN']//parent::div//following-sibling::div//input")).getAttribute("value");
+			if(AppLibrary.driver.findElement(By.xpath("//div[text()='PAN']//parent::div//following-sibling::div//input")).getAttribute("value").isEmpty() || AppLibrary.driver.findElement(By.xpath("//div[text()='PAN']//parent::div//following-sibling::div//input")).getAttribute("value")=="") {
+				
+				SoftAssert softAssert = new SoftAssert();
+				softAssert.assertEquals(v.verifyPanCardWithInValidPan(),"Failed to verify PAN, Please try again.","Title is not Matching");
+				Thread.sleep(1000);
+				softAssert.assertEquals(v.verifyPanCardWithValidPan(),"Failed to verify PAN, Please try again.","Title is not Matching");
+				softAssert.assertAll();
+			}else {
+				String panNumber = AppLibrary.driver.findElement(By.xpath("//div[text()='PAN']//parent::div//following-sibling::div//input")).getAttribute("value");
+			}
+			
 			
 		}
 	

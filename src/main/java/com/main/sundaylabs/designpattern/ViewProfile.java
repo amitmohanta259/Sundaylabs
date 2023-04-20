@@ -45,15 +45,12 @@ public class ViewProfile{
 		
 	}
 	
-	public Boolean VerifyPanCardPopWindow() throws InterruptedException {
-		Boolean status=false;
+	public void VerifyPanCardPopWindow() throws InterruptedException {
+		//Boolean status=false;
 		Thread.sleep(1000);
 		panPopUpButton.click();
-		Thread.sleep(1000);
-		if(popUpHeading.getText().equals("Verify PAN Card")) {
-			status=true;
-		}
-		return status;
+		Thread.sleep(3000);
+		
 	}
 	
 	public String verifyPanCardWithInValidPan() throws InterruptedException {

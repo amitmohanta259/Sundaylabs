@@ -2,40 +2,40 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-20T10:16:58 GMT-04:00" name="Default suite" finished-at="2023-04-20T10:17:19 GMT-04:00" duration-ms="21595">
+  <suite started-at="2023-04-20T10:53:50 GMT-04:00" name="Suite" finished-at="2023-04-20T10:54:12 GMT-04:00" duration-ms="22210">
     <groups>
     </groups>
-    <test started-at="2023-04-20T10:16:58 GMT-04:00" name="Default test" finished-at="2023-04-20T10:17:19 GMT-04:00" duration-ms="21595">
+    <test started-at="2023-04-20T10:53:50 GMT-04:00" name="Test" finished-at="2023-04-20T10:54:12 GMT-04:00" duration-ms="22210">
       <class name="com.automation.sundaylabs.SundayLab.EndtoEndTest">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:com.automation.sundaylabs.SundayLab.EndtoEndTest@15d49048]" started-at="2023-04-20T10:16:58 GMT-04:00" name="initialize" finished-at="2023-04-20T10:17:01 GMT-04:00" duration-ms="3112" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.automation.sundaylabs.SundayLab.EndtoEndTest@503f91c3]" started-at="2023-04-20T10:53:50 GMT-04:00" name="initialize" finished-at="2023-04-20T10:53:53 GMT-04:00" duration-ms="3130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="Login()[pri:1, instance:com.automation.sundaylabs.SundayLab.EndtoEndTest@15d49048]" started-at="2023-04-20T10:17:01 GMT-04:00" name="Login" finished-at="2023-04-20T10:17:02 GMT-04:00" duration-ms="1675" status="PASS">
+        <test-method signature="Login()[pri:1, instance:com.automation.sundaylabs.SundayLab.EndtoEndTest@503f91c3]" started-at="2023-04-20T10:53:53 GMT-04:00" name="Login" finished-at="2023-04-20T10:53:55 GMT-04:00" duration-ms="1521" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="ProfilePage()[pri:2, instance:com.automation.sundaylabs.SundayLab.EndtoEndTest@15d49048]" started-at="2023-04-20T10:17:02 GMT-04:00" name="ProfilePage" finished-at="2023-04-20T10:17:15 GMT-04:00" duration-ms="12261" status="PASS">
+        <test-method signature="ProfilePage()[pri:2, instance:com.automation.sundaylabs.SundayLab.EndtoEndTest@503f91c3]" started-at="2023-04-20T10:53:55 GMT-04:00" name="ProfilePage" finished-at="2023-04-20T10:54:08 GMT-04:00" duration-ms="13099" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProfilePage -->
-        <test-method signature="verifyUserType()[pri:3, instance:com.automation.sundaylabs.SundayLab.EndtoEndTest@15d49048]" started-at="2023-04-20T10:17:15 GMT-04:00" name="verifyUserType" finished-at="2023-04-20T10:17:19 GMT-04:00" duration-ms="4148" status="PASS">
+        <test-method signature="verifyUserType()[pri:3, instance:com.automation.sundaylabs.SundayLab.EndtoEndTest@503f91c3]" started-at="2023-04-20T10:54:08 GMT-04:00" name="verifyUserType" finished-at="2023-04-20T10:54:12 GMT-04:00" duration-ms="4151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserType -->
-        <test-method signature="verifyPan()[pri:4, instance:com.automation.sundaylabs.SundayLab.EndtoEndTest@15d49048]" started-at="2023-04-20T10:17:19 GMT-04:00" name="verifyPan" finished-at="2023-04-20T10:17:19 GMT-04:00" duration-ms="187" status="PASS">
+        <test-method signature="verifyPan()[pri:4, instance:com.automation.sundaylabs.SundayLab.EndtoEndTest@503f91c3]" started-at="2023-04-20T10:54:12 GMT-04:00" name="verifyPan" finished-at="2023-04-20T10:54:12 GMT-04:00" duration-ms="95" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPan -->
-        <test-method signature="verifyAdhar()[pri:5, instance:com.automation.sundaylabs.SundayLab.EndtoEndTest@15d49048]" started-at="2023-04-20T10:17:19 GMT-04:00" name="verifyAdhar" finished-at="2023-04-20T10:17:19 GMT-04:00" duration-ms="2" status="PASS">
+        <test-method signature="verifyAdhar()[pri:5, instance:com.automation.sundaylabs.SundayLab.EndtoEndTest@503f91c3]" started-at="2023-04-20T10:54:12 GMT-04:00" name="verifyAdhar" finished-at="2023-04-20T10:54:12 GMT-04:00" duration-ms="46" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAdhar -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.automation.sundaylabs.SundayLab.EndtoEndTest@15d49048]" started-at="2023-04-20T10:17:19 GMT-04:00" name="close" finished-at="2023-04-20T10:17:19 GMT-04:00" duration-ms="152" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.automation.sundaylabs.SundayLab.EndtoEndTest@503f91c3]" started-at="2023-04-20T10:54:12 GMT-04:00" name="close" finished-at="2023-04-20T10:54:12 GMT-04:00" duration-ms="109" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- com.automation.sundaylabs.SundayLab.EndtoEndTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

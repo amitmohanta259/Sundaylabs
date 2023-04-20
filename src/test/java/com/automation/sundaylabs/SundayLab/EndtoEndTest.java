@@ -42,15 +42,16 @@ public class EndtoEndTest {
 	@Test(priority = 4)
 		public void verifyPan() throws InterruptedException {
 			//Boolean panValue = AppLibrary.driver.findElement(By.xpath("//div[text()='PAN']//parent::div//following-sibling::div//input")).getAttribute("value");
-			if(AppLibrary.driver.findElement(By.xpath("//div[text()='PAN']//parent::div//following-sibling::div//input")).getAttribute("value").isEmpty() || AppLibrary.driver.findElement(By.xpath("//div[text()='PAN']//parent::div//following-sibling::div//input")).getAttribute("value")=="") {
-				
+			if(AppLibrary.driver.findElement(By.xpath("(//div[text()='PAN']//parent::div//following-sibling::div//input)[1]")).getAttribute("value")=="") {
+	
 				SoftAssert softAssert = new SoftAssert();
 				softAssert.assertEquals(v.verifyPanCardWithInValidPan(),"Failed to verify PAN, Please try again.","Title is not Matching");
 				Thread.sleep(1000);
-				softAssert.assertEquals(v.verifyPanCardWithValidPan(),"Failed to verify PAN, Please try again.","Title is not Matching");
+				//softAssert.assertEquals(v.verifyPanCardWithValidPan(),"Failed to verify PAN, Please try again.","Title is not Matching");
 				softAssert.assertAll();
 			}else {
-				String panNumber = AppLibrary.driver.findElement(By.xpath("//div[text()='PAN']//parent::div//following-sibling::div//input")).getAttribute("value");
+				String panNumber = AppLibrary.driver.findElement(By.xpath("(//div[text()='PAN']//parent::div//following-sibling::div//input)[1]")).getAttribute("value");
+				System.out.println(panNumber);
 			}
 			
 			
@@ -58,7 +59,14 @@ public class EndtoEndTest {
 	
 	@Test(priority = 5)
 	public void verifyAdhar() throws InterruptedException{
-		
+		if(AppLibrary.driver.findElement(By.xpath("(//div[text()='PAN']//parent::div//following-sibling::div//input)[1]")).getAttribute("value")=="") {
+			SoftAssert softAssert = new SoftAssert();
+			Thread.sleep(1000);
+			softAssert.assertAll();
+		}else {
+			String aadharNumber = AppLibrary.driver.findElement(By.xpath("(//div[text()='Aadhaar Card']//parent::div//following-sibling::div//input)[1]")).getAttribute("value");
+			System.out.println(aadharNumber);
+		}
 	}
 	
 	

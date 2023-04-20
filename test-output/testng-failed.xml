@@ -5,9 +5,9 @@
     <classes>
       <class name="com.automation.sundaylabs.SundayLab.EndtoEndTest">
         <methods>
-          <include name="signup"/>
           <include name="close"/>
           <include name="initialize"/>
+          <include name="ProfilePage"/>
         </methods>
       </class> <!-- com.automation.sundaylabs.SundayLab.EndtoEndTest -->
     </classes>

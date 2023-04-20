@@ -14,7 +14,7 @@ public class AppLibrary {
 		options.addArguments("--remote-allow-origins=*");
 		driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
-		driver.get("https://www.growpital.com");
+		driver.get("https://app.growpital.com/login");
 		
 	}
 }

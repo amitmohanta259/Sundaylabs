@@ -1,4 +1,4 @@
-package com.main.sundaylabs.designpattern;
+package com.main.automation.designpattern;
 
 import java.util.List;
 

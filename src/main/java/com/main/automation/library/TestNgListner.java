@@ -1,4 +1,4 @@
-package com.main.sundaylabs.library;
+package com.main.automation.library;
 
 import org.testng.ITestContext;
 import org.testng.ITestListener;

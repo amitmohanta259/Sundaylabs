@@ -1,4 +1,4 @@
-package com.main.sundaylabs.library;
+package com.main.automation.library;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

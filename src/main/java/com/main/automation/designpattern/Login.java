@@ -1,4 +1,4 @@
-package com.main.sundaylabs.designpattern;
+package com.main.automation.designpattern;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

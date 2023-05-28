@@ -1,11 +1,11 @@
-package com.automation.sundaylabs.SundayLab;
+package com.automation.automation.SeleniumWebdriver;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import com.main.sundaylabs.designpattern.*;
-import com.main.sundaylabs.library.AppLibrary;
+import com.main.automation.designpattern.*;
+import com.main.automation.library.AppLibrary;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;

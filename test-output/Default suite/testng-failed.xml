@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automation.sundaylabs.SundayLab.EndtoEndTest">
+      <class name="com.automation.automation.SeleniumWebdriver.WebtableSorted">
         <methods>
-          <include name="close"/>
-          <include name="verifyPan"/>
-          <include name="initialize"/>
+          <include name="initializeDriver"/>
+          <include name="sortTable"/>
         </methods>
-      </class> <!-- com.automation.sundaylabs.SundayLab.EndtoEndTest -->
+      </class> <!-- com.automation.automation.SeleniumWebdriver.WebtableSorted -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

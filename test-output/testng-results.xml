@@ -1,41 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-08T17:18:36 IST" name="Default suite" finished-at="2023-05-08T17:18:58 IST" duration-ms="22297">
+  <suite started-at="2023-06-04T20:23:26 IST" name="Default suite" finished-at="2023-06-04T20:23:29 IST" duration-ms="3452">
     <groups>
     </groups>
-    <test started-at="2023-05-08T17:18:36 IST" name="Default test" finished-at="2023-05-08T17:18:58 IST" duration-ms="22297">
-      <class name="com.automation.sundaylabs.SundayLab.EndtoEndTest">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:com.automation.sundaylabs.SundayLab.EndtoEndTest@15d49048]" started-at="2023-05-08T17:18:36 IST" name="initialize" finished-at="2023-05-08T17:18:40 IST" duration-ms="3967" status="PASS">
+    <test started-at="2023-06-04T20:23:26 IST" name="Default test" finished-at="2023-06-04T20:23:29 IST" duration-ms="3452">
+      <class name="com.automation.automation.SeleniumWebdriver.WebtableSorted">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.automation.automation.SeleniumWebdriver.WebtableSorted@15d49048]" started-at="2023-06-04T20:23:26 IST" name="initializeDriver" finished-at="2023-06-04T20:23:28 IST" duration-ms="2577" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method signature="Login()[pri:1, instance:com.automation.sundaylabs.SundayLab.EndtoEndTest@15d49048]" started-at="2023-05-08T17:18:40 IST" name="Login" finished-at="2023-05-08T17:18:41 IST" duration-ms="1463" status="PASS">
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="sortTable()[pri:0, instance:com.automation.automation.SeleniumWebdriver.WebtableSorted@15d49048]" started-at="2023-06-04T20:23:28 IST" name="sortTable" finished-at="2023-06-04T20:23:29 IST" duration-ms="730" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method signature="ProfilePage()[pri:2, instance:com.automation.sundaylabs.SundayLab.EndtoEndTest@15d49048]" started-at="2023-05-08T17:18:41 IST" name="ProfilePage" finished-at="2023-05-08T17:18:53 IST" duration-ms="12214" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ProfilePage -->
-        <test-method signature="verifyUserType()[pri:3, instance:com.automation.sundaylabs.SundayLab.EndtoEndTest@15d49048]" started-at="2023-05-08T17:18:53 IST" name="verifyUserType" finished-at="2023-05-08T17:18:58 IST" duration-ms="4112" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserType -->
-        <test-method signature="verifyPan()[pri:4, instance:com.automation.sundaylabs.SundayLab.EndtoEndTest@15d49048]" started-at="2023-05-08T17:18:58 IST" name="verifyPan" finished-at="2023-05-08T17:18:58 IST" duration-ms="158" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPan -->
-        <test-method signature="verifyAdhar()[pri:5, instance:com.automation.sundaylabs.SundayLab.EndtoEndTest@15d49048]" started-at="2023-05-08T17:18:58 IST" name="verifyAdhar" finished-at="2023-05-08T17:18:58 IST" duration-ms="84" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAdhar -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.automation.sundaylabs.SundayLab.EndtoEndTest@15d49048]" started-at="2023-05-08T17:18:58 IST" name="close" finished-at="2023-05-08T17:18:58 IST" duration-ms="242" status="PASS">
+        </test-method> <!-- sortTable -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.automation.automation.SeleniumWebdriver.WebtableSorted@15d49048]" started-at="2023-06-04T20:23:29 IST" name="close" finished-at="2023-06-04T20:23:29 IST" duration-ms="117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- com.automation.sundaylabs.SundayLab.EndtoEndTest -->
+      </class> <!-- com.automation.automation.SeleniumWebdriver.WebtableSorted -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
